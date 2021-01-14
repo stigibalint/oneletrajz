@@ -1,50 +1,93 @@
-body, html {
-   height: 100%;
-   margin: 0;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
 }
 
-.bg {
-    background-image: url("image/forest.jpg");
-    height: 100%; 
-    background-position: center;
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image:url(image/forest.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    }
+
+.prog {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family: 'Centruy Gothic', sans-serif;
+}
+.prog-img{
+    border-radius: 100%;
+    width: 170px;
+    border-color: white;
+
+    }
+
+.prog h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+
+}
+.prog h5 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
 }
 
-table   {
-    border: 3px solid green;
-    color: white
-    text-align: center;
-    font-size: 28px;
-        }
-    
-#tit   {
-    color: gold;
-    font-size: 30px;
-    text-align: center;
-        }
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-        }
-
-p,li,ol,ul {
-    color:gray;
-    text-align: center;
-    
-}
-#web {
-    color: white;
-    text-align: left;
-    font-style: italic;
+.prog p{
+    text-align: justify;
 }
 
-td {
-    text-align: left;
-    color: yellow;
-      }
 
-img {
-    border: 2px solid black;
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -50px;
+    margin-right: 60px;
+
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.foot hr{
+    color:black;
+    margin-top: 230px;
+    border: black;
+}
+
+.foot {
+    background: #343a40;
+    color: #686868;
+    position: relative;
+}
+
+.foot h1{
+    margin-top: 200px;
 }
