@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Century Gothic';
+    font-family: 'Times New Roman';
 }
 
 
@@ -9,11 +9,12 @@ body {
 
     margin: 0;
     padding: 0;
-    background-image:url(image/forest.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     background-position: center;
+    background-image: url(image/forest.jpg);
+    background-size: 100%;
+    
     }
 
 .prog {
@@ -25,11 +26,15 @@ body {
     margin-top: 5%;
     color:white;
     font-family: 'Centruy Gothic', sans-serif;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px gray;
+
 }
 .prog-img{
-    border-radius: 100%;
-    width: 170px;
-    border-color: white;
+    border-radius: 50%;
+    width: 200px;
+    border:3px solid rgb(214, 212, 212);
+    
 
     }
 
@@ -37,57 +42,138 @@ body {
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
+    text-shadow: 2px 2px 4px rgba(83, 87, 83, 0.842);
 
 }
 .prog h5 {
     font-size: 25px;
     letter-spacing: 3px;
     font-weight: 100;
+    text-shadow: 2px 2px 4px;
 }
 
 .prog p{
-    text-align: justify;
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+    
 }
 
 
 ul{
     float: right;
     list-style-type: none;
-    margin-top: -50px;
+    margin-top: -20px;
     margin-right: 60px;
-
+    font-size: 20px;
+   
 }
 
 ul li{
     display: inline-block;
 
+ 
 }
 
 ul li a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     padding: 5px 20px;
-    border: 1px solid #fff;
+    border: 1px solid black;
     transition: 0.6s ease;
+  
+ 
 }
 
 ul li a:hover{
-    background-color: white;
+    background-color: gray;
     color: black;
-}
-
-.foot hr{
-    color:black;
-    margin-top: 230px;
-    border: black;
-}
-
-.foot {
-    background: #343a40;
-    color: #686868;
-    position: relative;
+    
+    
 }
 
 .foot h1{
     margin-top: 200px;
 }
+
+.fb-img {
+    width: 70px;
+    transition: transform .2s;
+    margin: 10px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 2px rgba(53, 52, 52, 0.884);
+
+}
+
+.insta-img {
+    border-radius: 20%;
+    width: 70px;
+    transition: transform .2s;
+    margin: 10px;
+    box-shadow: 5px 5px 2px rgba(53, 52, 52, 0.884);
+
+
+}
+
+
+#gmail {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+}
+
+.fb-img:hover{
+    transform: scale(1.5);
+}
+
+.insta-img:hover {
+    transform: scale(1.5);
+}
+
+.hobbitemplate {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family: 'Centruy Gothic', sans-serif;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px gray;
+    float: right;
+}
+
+
+.rolamtemplate{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family: 'Centruy Gothic', sans-serif;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px gray;
+    float:left;
+    
+}
+
+
+
+.imgtemplate{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family: 'Centruy Gothic', sans-serif;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px gray;
+
+}
+
+
+
